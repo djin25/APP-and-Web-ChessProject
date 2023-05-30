@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Knight Moves ♞ Nobles Chess Club</title>
+	<link rel="icon" href="https://lrmandell212.github.io/profile/favicon.ico">
+	<link rel="stylesheet" href="knight-moves.css">
+</head>
+
+<body>
+
+	<div class="page-frame">
+		<header class="page-header">
+			<h1>Nobles Chess Club</h1>
+			<h5>-Original project made by Jahid Khan</h5>
+    		<h2 id="tog">White's Turn</h2>
+			<nav>
+				<ul>
+					<li><a href="about.html">About</a></li>
+					<li>
+						<a href="tutorials.html">Tutorials</a>
+						<ul>
+							<li><a href="pawn-moves.html">Pawn Moves</a></li>
+							<li><a href="knight-moves.html">Knight Moves</a></li>
+							<li><a href="bishop-moves.html">Bishop Moves</a></li>
+							<li><a href="rook-moves.html">Rook Moves</a></li>
+							<li><a href="queen-moves.html">Queen Moves</a></li>
+							<li><a href="king-moves.html">King Moves</a></li>
+                        </ul>
+					</li>
+					<li>
+						<a href="puzzles.html">Puzzles</a>
+						<ul>
+							<li><a href="Puzzles/puzzle-1.html">Puzzle 1</a></li>
+							<li><a href="Puzzles/puzzle-2.html">Puzzle 2</a></li>
+							<li><a href="Puzzles/puzzle-3.html">Puzzle 3</a></li>
+							<li><a href="Puzzles/puzzle-4.html">Puzzle 4</a></li>
+							<li><a href="Puzzles/puzzle-5.html">Puzzle 5</a></li>
+                        </ul>
+					</li>
+					<li>
+                        <a href="mini-games.html">Mini Games</a>
+                        <ul>
+                            <li><a href="knights-tour.html">Knight's Tour</a></li>
+							<li><a href="coordinate.html">Coordinate Game</a></li>
+                        </ul>
+                    </li>
+					<li><a href="game-play.html">Game Play</a>
+						<ul>
+                            <li><a href="ChessExperiment/experiment.html">Experiment</a></li>
+                        </ul>
+					</li>
+					<li><a href="events-and-news.html">Events and News</a></li>
+					<li><a href="resources.html">Resources</a></li>
+				</ul>
+
+			</nav>
+			<hr>
+		</header>
+
+		<div class="content-frame">
+			<main>
+                <h2>The Knight: </h2>
+                <div class="divv" id="row8">
+					<li class="square" row=8 col=1 id="b801"></li>
+					<li class="square" row=8 col=2 id="b802">Bknight</li>
+					<li class="square" row=8 col=3 id="b803"></li>
+					<li class="square" row=8 col=4 id="b804"></li>
+					<li class="square" row=8 col=5 id="b805"></li>
+					<li class="square" row=8 col=6 id="b806"></li>
+					<li class="square" row=8 col=7 id="b807">Bknight</li>
+					<li class="square" row=8 col=8 id="b808"></li>
+				</div>
+				<div class="divv" id="row7">
+					<li class="square" row=7 col=1 id="b701"></li>
+					<li class="square" row=7 col=2 id="b702"></li>
+					<li class="square" row=7 col=3 id="b703"></li>
+					<li class="square" row=7 col=4 id="b704"></li>
+					<li class="square" row=7 col=5 id="b705"></li>
+					<li class="square" row=7 col=6 id="b706"></li>
+					<li class="square" row=7 col=7 id="b707"></li>
+					<li class="square" row=7 col=8 id="b708"></li>
+				</div>
+				<div class="divv" id="row6">
+					<li class="square" row=6 col=1 id="b601"></li>
+					<li class="square" row=6 col=2 id="b602"></li>
+					<li class="square" row=6 col=3 id="b603"></li>
+					<li class="square" row=6 col=4 id="b604"></li>
+					<li class="square" row=6 col=5 id="b605"></li>
+					<li class="square" row=6 col=6 id="b606"></li>
+					<li class="square" row=6 col=7 id="b607"></li>
+					<li class="square" row=6 col=8 id="b608"></li>
+				</div>
+				<div class="divv" id="row5">
+					<li class="square" row=5 col=1 id="b501"></li>
+					<li class="square" row=5 col=2 id="b502"></li>
+					<li class="square" row=5 col=3 id="b503"></li>
+					<li class="square" row=5 col=4 id="b504"></li>
+					<li class="square" row=5 col=5 id="b505"></li>
+					<li class="square" row=5 col=6 id="b506"></li>
+					<li class="square" row=5 col=7 id="b507"></li>
+					<li class="square" row=5 col=8 id="b508"></li>
+				</div>
+				<div class="divv" id="row4">
+					<li class="square" row=4 col=1 id="b401"></li>
+					<li class="square" row=4 col=2 id="b402"></li>
+					<li class="square" row=4 col=3 id="b403"></li>
+					<li class="square" row=4 col=4 id="b404"></li>
+					<li class="square" row=4 col=5 id="b405"></li>
+					<li class="square" row=4 col=6 id="b406"></li>
+					<li class="square" row=4 col=7 id="b407"></li>
+					<li class="square" row=4 col=8 id="b408"></li>
+				</div>
+				<div class="divv" id="row3">
+					<li class="square" row=3 col=1 id="b301"></li>
+					<li class="square" row=3 col=2 id="b302"></li>
+					<li class="square" row=3 col=3 id="b303"></li>
+					<li class="square" row=3 col=4 id="b304"></li>
+					<li class="square" row=3 col=5 id="b305"></li>
+					<li class="square" row=3 col=6 id="b306"></li>
+					<li class="square" row=3 col=7 id="b307"></li>
+					<li class="square" row=3 col=8 id="b308"></li>
+				</div>
+		
+				<div class="divv" id="row2">
+					<li class="square Wpawn" row=2 col=1 id="b201"></li>
+					<li class="square Wpawn" row=2 col=2 id="b202"></li>
+					<li class="square Wpawn" row=2 col=3 id="b203"></li>
+					<li class="square Wpawn" row=2 col=4 id="b204"></li>
+					<li class="square Wpawn" row=2 col=5 id="b205"></li>
+					<li class="square Wpawn" row=2 col=6 id="b206"></li>
+					<li class="square Wpawn" row=2 col=7 id="b207"></li>
+					<li class="square Wpawn" row=2 col=8 id="b208"></li>
+				</div>
+				<div class="divv" id="row1">
+					<li class="square" row=1 col=1 id="b101"></li>
+					<li class="square" row=1 col=2 id="b102">Wknight</li>
+					<li class="square" row=1 col=3 id="b103"></li>
+					<li class="square" row=1 col=4 id="b104"></li>
+					<li class="square" row=1 col=5 id="b105"></li>
+					<li class="square" row=1 col=6 id="b106"></li>
+					<li class="square" row=1 col=7 id="b107">Wknight</li>
+					<li class="square" row=1 col=8 id="b108"></li>
+				</div>
+				<p2>
+					The Knight moves in an "L" shape: 2 squares in one direction and one square in a perpedicular direction. The knight is also the only piece that can "jump over"/move through other pieces.
+				</p2>
+                <h2 class="game--status"></h2>
+                <button class="game--restart">Restart Game</button>
+			</main>
+		</div>
+
+		<footer class="page-footer">
+			<hr>
+			<small>&copy; 2023 Derek Jin. All Rights Reserved.</small>
+		</footer>
+
+	</div>
+
+	<script src="knight-moves.js"></script>
+
+</body>
+
+</html>

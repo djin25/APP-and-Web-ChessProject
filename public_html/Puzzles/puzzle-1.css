@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-size: 25px;
+    color: black;
+    display: grid;
+    place-items: center;
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    margin: 10px;
+    color: blue;
+  }
+  h3{
+    font-size: 25px;
+    color: blue;
+  }
+  p{
+    font-size: 20px;
+    color: black;
+  }
+  h4{
+    text-align: left;
+    font-size: 25px;
+    color: blue;
+  }
+  h6{
+    text-align: left;
+    font-size: 25px;
+    color: blue;
+  }
+  
+  ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  
+  .divv {
+    display: flex;
+  }
+  
+  li {
+    list-style: none;
+    display: grid;
+    place-items: center;
+    font-size: 0px;
+  }
+  .square {
+    margin: .5px;
+    width: 75px;
+    height: 75px;
+  }
+  
+  #tog {
+    margin: 10px 0px;
+  }
+  
+  .Goals{
+    color:black;
+    font-size:20px;
+  }
+  
+  .allimg {
+    width: 60px;
+    position: relative;
+    bottom: 6.66666px;
+  }
+  
+  .allpawn {
+    transform: scale(1.0);
+  }
+  
+  .authcont {
+    width: 100vw;
+  }
+  
+  
+  @media (max-width:650px){
+  
+    #tog {
+        margin-bottom: 70px;
+  
+    }
+  
+    .box {
+        width: 11vw;
+        height: 11vw;
+    }
+  
+    .allimg {
+        width: 7vw;
+    }
+  }

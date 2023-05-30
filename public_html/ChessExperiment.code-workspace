@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "name": "Nobles_Chess_Club_Project",
+            "path": "../Nobles_Chess_Club_Project"
+        },
+        {
+            "name": "ChessExperiment",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Nobles_Chess_Club_Project"
+    }
+}

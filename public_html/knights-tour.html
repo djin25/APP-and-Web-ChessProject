@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Knights Tour ♞ Nobles Chess Club</title>
+	<link rel="icon" href="https://lrmandell212.github.io/profile/favicon.ico">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div class="page-frame">
+		<header class="page-header">
+			<h1>Nobles Chess Club</h1>
+			<nav>
+				<ul>
+					<li><a href="about.html">About</a></li>
+					<li>
+						<a href="tutorials.html">Tutorials</a>
+						<ul>
+							<li><a href="pawn-moves.html">Pawn Moves</a></li>
+							<li><a href="knight-moves.html">Knight Moves</a></li>
+							<li><a href="bishop-moves.html">Bishop Moves</a></li>
+							<li><a href="rook-moves.html">Rook Moves</a></li>
+							<li><a href="queen-moves.html">Queen Moves</a></li>
+							<li><a href="king-moves.html">King Moves</a></li>
+                        </ul>
+					</li>
+					<li>
+						<a href="puzzles.html">Puzzles</a>
+						<ul>
+							<li><a href="Puzzles/puzzle-1.html">Puzzle 1</a></li>
+							<li><a href="Puzzles/puzzle-2.html">Puzzle 2</a></li>
+							<li><a href="Puzzles/puzzle-3.html">Puzzle 3</a></li>
+							<li><a href="Puzzles/puzzle-4.html">Puzzle 4</a></li>
+							<li><a href="Puzzles/puzzle-5.html">Puzzle 5</a></li>
+                        </ul>
+					</li>
+					<li>
+                        <a href="mini-games.html">Mini Games</a>
+                        <ul>
+                            <li><a href="knights-tour.html">Knight's Tour</a></li>
+                            <li><a href="coordinate.html">Coordinate Game</a></li>
+                        </ul>
+                    </li>
+					<li><a href="ChessExperiment/experiment.html">Game Play</a></li>
+					<li><a href="events-and-news.html">Events and News</a></li>
+					<li><a href="resources.html">Resources</a></li>
+				</ul>
+
+			</nav>
+			<hr>
+		</header>
+
+		<div class="content-frame">
+			<main>
+                <h2>Knight's Tour</h2>
+                <div class="game--container">
+                    <div file="0" rank="0" number="0" class="cell"></div>
+                    <div file="0" rank="1" number="1" class="cell"></div>
+                    <div file="0" rank="2" number="2" class="cell"></div>
+                    <div file="0" rank="3" number="3" class="cell"></div>
+                    <div file="0" rank="4" number="4" class="cell"></div>
+                    <div file="0" rank="5" number="5" class="cell"></div>
+                    <div file="0" rank="6" number="6" class="cell"></div>
+                    <div file="0" rank="7" number="7" class="cell"></div>
+                    <div file="1" rank="0" number="8" class="cell"></div>
+                    <div file="1" rank="1" number="9" class="cell"></div>
+                    <div file="1" rank="2" number="10" class="cell"></div>
+                    <div file="1" rank="3" number="11" class="cell"></div>
+                    <div file="1" rank="4" number="12" class="cell"></div>
+                    <div file="1" rank="5" number="13" class="cell"></div>
+                    <div file="1" rank="6" number="14" class="cell"></div>
+                    <div file="1" rank="7" number="15" class="cell"></div>
+                    <div file="2" rank="0" number="16" class="cell"></div>
+                    <div file="2" rank="1" number="17" class="cell"></div>
+                    <div file="2" rank="2" number="18" class="cell"></div>
+                    <div file="2" rank="3" number="19" class="cell"></div>
+                    <div file="2" rank="4" number="20" class="cell"></div>
+                    <div file="2" rank="5" number="21" class="cell"></div>
+                    <div file="2" rank="6" number="22" class="cell"></div>
+                    <div file="2" rank="7" number="23" class="cell"></div>
+                    <div file="3" rank="0" number="24" class="cell"></div>
+                    <div file="3" rank="1" number="25" class="cell"></div>
+                    <div file="3" rank="2" number="26" class="cell"></div>
+                    <div file="3" rank="3" number="27" class="cell"></div>
+                    <div file="3" rank="4" number="28" class="cell"></div>
+                    <div file="3" rank="5" number="29" class="cell"></div>
+                    <div file="3" rank="6" number="30" class="cell"></div>
+                    <div file="3" rank="7" number="31" class="cell"></div>
+                    <div file="4" rank="0" number="32" class="cell"></div>
+                    <div file="4" rank="1" number="33" class="cell"></div>
+                    <div file="4" rank="2" number="34" class="cell"></div>
+                    <div file="4" rank="3" number="35" class="cell"></div>
+                    <div file="4" rank="4" number="36" class="cell"></div>
+                    <div file="4" rank="5" number="37" class="cell"></div>
+                    <div file="4" rank="6" number="38" class="cell"></div>
+                    <div file="4" rank="7" number="39" class="cell"></div>
+                    <div file="5" rank="0" number="40" class="cell"></div>
+                    <div file="5" rank="1" number="41" class="cell"></div>
+                    <div file="5" rank="2" number="42" class="cell"></div>
+                    <div file="5" rank="3" number="43" class="cell"></div>
+                    <div file="5" rank="4" number="44" class="cell"></div>
+                    <div file="5" rank="5" number="45" class="cell"></div>
+                    <div file="5" rank="6" number="46" class="cell"></div>
+                    <div file="5" rank="7" number="47" class="cell"></div>
+                    <div file="6" rank="0" number="48" class="cell"></div>
+                    <div file="6" rank="1" number="49" class="cell"></div>
+                    <div file="6" rank="2" number="50" class="cell"></div>
+                    <div file="6" rank="3" number="51" class="cell"></div>
+                    <div file="6" rank="4" number="52" class="cell"></div>
+                    <div file="6" rank="5" number="53" class="cell"></div>
+                    <div file="6" rank="6" number="54" class="cell"></div>
+                    <div file="6" rank="7" number="55" class="cell"></div>
+                    <div file="7" rank="0" number="56" class="cell"></div>
+                    <div file="7" rank="1" number="57" class="cell"></div>
+                    <div file="7" rank="2" number="58" class="cell"></div>
+                    <div file="7" rank="3" number="59" class="cell"></div>
+                    <div file="7" rank="4" number="60" class="cell"></div>
+                    <div file="7" rank="5" number="61" class="cell"></div>
+                    <div file="7" rank="6" number="62" class="cell"></div>
+                    <div file="7" rank="7" number="63" class="cell"></div>
+                </div>
+                <h2 class="game--status"></h2>
+            
+                <button class="game--restart">Restart Game</button>
+			</main>
+		</div>
+
+		<footer class="page-footer">
+			<hr>
+			<small>&copy; 2023 Derek Jin. All Rights Reserved.</small>
+		</footer>
+
+	</div>
+    <script src="script.js"></script>
+</body>
+
+</html>

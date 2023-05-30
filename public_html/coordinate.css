@@ -1,0 +1,80 @@
+/*Most of this deals with formatting and can be adjusted */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 25px;
+  color: black;
+  display: grid;
+  place-items: center; /*This centers the items (like the text and the board)*/
+  overflow-x: visible;
+}
+
+h1 {
+  margin: 10px;
+  color: blue;
+}
+p{
+  font-size: 20px;
+  color: black;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr; /*sets the columns, 1fr, fr means fraction*/
+  place-items: center; /*centers the items*/
+}
+
+.divv {
+  display: flex; /*According to chatGPT, this "create[s] a flexible container that aligns and distributes its child
+  elements along a single axis (either horizontally or vertically) and allows them to resize dynamically to fill
+  available space."*/
+  position: relative; /* set position to relative so we can position the text element */
+  z-index: 1; /* set a z-index value to make sure the grid is behind the text */
+}
+
+li {
+  list-style: none;
+  display: grid;
+  place-items: center;
+  font-size: 0px; /*The font is set to 0. Otherwise, the innertext would be visible.*/
+  position: relative;
+}
+.square {
+  margin: .5px;
+  width: 75px;
+  height: 75px;
+  font-size: 0px;
+  overflow: visible;
+}
+
+#tog {
+  margin: 10px 0px; /*tog refers to the text at the top denoting whose turn it is.
+                    This line adjusts the margin of said text.*/
+}
+
+.allimg { /*as the name suggests, this deals with all of the images (for the pieces).
+          The lines below adjust the size, position, and distance from the bottom
+          for said images.*/
+  width: 60px;
+  position: relative;
+  bottom: 6.666666px;
+}
+
+.allpawn { /*Scales the images of the pawns relative to the other pieces.*/
+  transform: scale(1.0);
+}
+
+.text-overlay {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 0px;
+  text-shadow: 3px 3px #000099;
+  color: #BBFFFF;
+  pointer-events: none
+}
